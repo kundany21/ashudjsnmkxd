@@ -1028,13 +1028,13 @@ local defaults; do
         textstroke     = 1;
         titlestroke    = 1;
 
-        strokecolor    = Color3.fromRGB(0, 0, 0);
+        strokecolor    = Color3.fromRGB(13, 34, 69);
 
-        textcolor      = Color3.fromRGB(255, 255, 255);
-        titletextcolor = Color3.fromRGB(255, 255, 255);
+        textcolor      = Color3.fromRGB(52, 50, 74);
+        titletextcolor = Color3.fromRGB(43, 40, 97);
 
         placeholdercolor = Color3.fromRGB(255, 255, 255);
-        titlestrokecolor = Color3.fromRGB(0, 0, 0);
+        titlestrokecolor = Color3.fromRGB(255, 255, 255);
     }
 
     library.options = setmetatable({}, {__index = default})
